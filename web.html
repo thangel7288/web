@@ -5,37 +5,119 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="web.css">
-</head>
-<body>
+
+
+  
+    <meta name="description" content="">
+  
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+    </style>
+  </head>
+  
+  <body>
     <header>
-        <div class="contenedor">
-          <a href="#">
-            <img src="imagenes/raya.jfif" alt="logo">
-          </a>
-    
-          <nav class="nav-contenedor">
-            <a href="#inicio" class="enlaces">Inicio</a>
-            <a href="#" class="enlaces">Nosotros</a>
-            <a href="#" class="enlaces">Servicios</a>
-            <a href="#" class="enlaces">Galeria</a>
-            <a href="#" class="enlaces">Contacto</a>
-          </nav>
+      <div class="contenedor">
+        <a href="#">
+          <img src="imagenes/raya.jfif" alt="">
+        </a>
+        <nav class="nav-container">
+          <a href="#inicio" class="enlace">Inicio</a>
+          <a href="#nosotros" class="enlace">Nosotros</a>
+          <a href="#servicios" class="enlace">Servicios</a>
+          <a href="#" class="enlace">Galeria</a>
+          <a href="#" class="enlace">Contacto</a>
+        </nav>
+      </div>
     </header>
-          <main>
-          <section id="inicio">
-            <div class="contenedor principal vh-100">
-              <div class="contenedor-textos">
-              <h1 class="titulo">Bienvenidos al diseño web</h1>
-              <p class="copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, officia</p>
-              <a href="#" class="cta">Aprende ahora</a>
-              </div>
-              <img src="imagenes/human.jfif" alt="nerd" class="ilustracion">
-            </div>
-    
-            </main>
-          </section>
-    
+    <main>
+      <section id="inicio">
+        <div class="principal vh-100">
+          <div class="contenedor-texto">
+            <h1 class="titulo"> Bienvenidos al diseño web</h1>
+            <p class="parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, hic nemo laudantium quae maxime quisquam sint consectetur tenetur omnis obcaecati.</p>
+            <a href="#" class="boton">Aprende ahora</a>
+          </div>
+          <img src="imagenes/human.jfif" alt="nerd" class="ilustacion">
         </div>
-    
-</body>
-</html>
+      </section>
+    </main>
+  
+    <section id="nosotros">
+      <div class="contenedor principal vh-100">
+        <img src="img/about.png" alt="about">
+      </div>
+      <div class="contenedor-texto">
+        <h2 class="titulo">
+          Nosotros
+        </h2>
+        <p class="copy">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, officia.
+        </p>
+      </div>
+    </section>
+  
+    <section id="servicios">
+      <div class="contenedor vh-100">
+        <div class="text-center">
+          <h2 class="titulo">Servicios</h2>
+          <p class="copy">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, quaerat.</p>
+        </div>
+        
+        <div class="cards">
+          <div class="card__item">
+            <h3 class="card__plan">Git</h3>
+            <h3 class="card__precio">Básico</h3>
+            <p class="card__caracteristica">Hasta 30 personas por curso</p>
+            <p class="card__caracteristica">Característica 1</p>
+            <p class="card__caracteristica">Característica 2</p>
+            <p class="card__caracteristica">Característica 3</p>
+            <a href="#" class="boton">Aprender ahora</a>
+          </div>
+  
+          <div class="card_item card_item--activo">
+            <h3 class="card__plan">Css</h3>
+            <h3 class="card__precio">Intermedio</h3>
+            <p class="card__caracteristica">Hasta 30 personas por curso</p>
+            <p class="card__caracteristica">Característica 1</p>
+            <p class="card__caracteristica">Característica 2</p>
+            <p class="card__caracteristica">Característica 3</p>
+            <p class="card__caracteristica">Característica 2</p>
+            <p class="card__caracteristica">Característica 3</p>
+            <a href="#" class="boton boton--negro">Aprender ahora</a>
+        </div>
+  
+        <!-- <div class="cards"> -->
+          <div class="card__item">
+            <h3 class="card__plan">Html</h3>
+            <h3 class="card__precio">Básico</h3>
+            <p class="card__caracteristica">Hasta 30 personas por curso</p>
+            <p class="card__caracteristica">Característica 1</p>
+            <p class="card__caracteristica">Característica 2</p>
+            <p class="card__caracteristica">Característica 3</p>
+            <a href="#" class="boton">Aprender ahora</a>
+          </div>
+        </div>
+  
+        <section id="galeria">
+          <div class="contenedor vh-100">
+            <div class="text-center">
+              <h2 class="titulo">Galeria</h2>
+              <p class="copy">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, quaerat.
+              </p>
+            </div>
+  
+            <img src="img/uno.jpg" alt="img">
+            <img src="img/dos.jpg" alt="img">
+            <img src="img/tres.jpg" alt="img">
+            <img src="img/cuatro.jpg" alt="img">
+            <img src="img/cinco.jpg" alt="img">
+            <img src="img/seis.jpg" alt="img">
+  
+          </div>
+        </section>
+         
+  </body>
+  
+  </html>
